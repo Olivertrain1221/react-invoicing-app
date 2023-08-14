@@ -1,0 +1,15 @@
+.headingL {
+    @apply text-4xl font-semibold leading-8 tracking-wide
+}
+
+.headingM {
+    @apply text-2xl font-semibold leading-8 tracking-normal
+}
+
+.headingS {
+    @apply text-base font-semibold leading-8 tracking-normal
+}
+
+.body {
+    @apply text-base font-normal leading-8 tracking-wide
+}
