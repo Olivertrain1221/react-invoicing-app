@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class',
   theme: {
     screens: {
       xs: '552px',
@@ -26,6 +27,7 @@ export default {
         redDelete: '#EC5757',
         redDeleteHover: '#9277FF',
         newitemDef: '#F8F8FB',
+        greyText: '#7E88C3',
       },
       fontFamily: {
         serif: ['serif'],
@@ -33,6 +35,9 @@ export default {
       fontSize: {
         '2xl': '12.5rem',
       },
+      borderRadius: {
+        'lg': '1.5rem'
+      }
     },
   },
   plugins: [],
