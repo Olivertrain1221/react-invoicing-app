@@ -13,3 +13,28 @@
 .btn-edit {
   @apply text-greyText dark:text-buttonHoverLight text-[0.9375rem] tracking-wide uppercase w-auto font-bold py-4 px-6 flex items-center bg-editlight dark:bg-editDark rounded-lg hover:bg-buttonHoverLight dark:hover:bg-white
 }
+
+.btn-four {
+  @apply text-[#888EB0] text-[0.9375rem] tracking-wide uppercase w-auto font-bold py-4 px-6 flex items-center bg-buttonGrey dark:text-buttonHoverLight rounded-lg hover:bg-buttonHover dark:hover:bg-[#1E2139]
+}
+
+.btn-delete {
+  @apply text-white text-[0.9375rem] tracking-wide uppercase w-auto font-bold py-4 px-6 flex items-center bg-redDelete rounded-lg hover:bg-redDeleteHover
+}
+
+.btn-item-add {
+  @apply text-greyText block text-[0.9375rem] w-80 tracking-wide uppercase text-center font-bold py-4 px-6 bg-editlight rounded-lg hover:bg-buttonHoverLight
+}
+
+
+.txt-field-container {
+  @apply flex flex-col items-start w-full
+}
+
+.form-labels {
+  @apply text-sm font-medium text-greyText
+}
+
+.form-txt-input {
+  @apply border-solid border-buttonHoverLight rounded border-1 w-full
+}

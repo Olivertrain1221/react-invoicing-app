@@ -25,7 +25,7 @@ export default {
         buttonGrey: '#373B53',
         buttonHover: '#0C0E16',
         redDelete: '#EC5757',
-        redDeleteHover: '#9277FF',
+        redDeleteHover: '#FF9797',
         newitemDef: '#F8F8FB',
         greyText: '#7E88C3',
       },
@@ -37,6 +37,9 @@ export default {
       },
       borderRadius: {
         'lg': '1.5rem'
+      },
+      borderWidth: {
+        '1': '1px'
       }
     },
   },
